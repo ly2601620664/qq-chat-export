@@ -1,0 +1,7 @@
+# GitHub Linguist 语言检测配置
+# C# 解密工具是平台相关的辅助程序，不计入主语言统计
+rekey/*.cs linguist-vendored
+rekey/*.cs linguist-generated=false
+
+# Markdown 文档不计入语言统计
+docs/*.md linguist-documentation

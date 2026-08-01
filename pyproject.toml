@@ -3,7 +3,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.backends._legacy:_Backend"
 
 [project]
-name = "qq-backup-export"
+name = "qq-chat-export"
 version = "1.0.0"
 description = "Export and analyze QQ MsgBackup chat databases."
 readme = "README.md"
@@ -15,7 +15,8 @@ dependencies = [
 ]
 
 [project.scripts]
-qq-backup-export = "qq_backup_export.cli:main"
+qq-chat-export = "qq_backup_export.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["qq_backup_export*"]
+
