@@ -1,0 +1,46 @@
+﻿# Secrets and captured keys (NEVER commit)
+secrets/
+captured-pcqq-keys*.json
+*.key
+
+# Private user data (NEVER commit)
+input/
+decrypted/
+decrypt-test/
+*.sqlite
+*.db
+*.jsonl
+!examples/*.jsonl
+
+# Analysis output (may contain private chat content)
+review_chunks/
+full_review_notes.md
+parse_report.json
+relationship_metrics.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# C# / .NET
+rekey/bin/
+rekey/obj/
+rekey/*.exe
+rekey/*.dll
+rekey/*.pdb
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+.DS_Store

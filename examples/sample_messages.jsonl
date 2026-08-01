@@ -1,0 +1,3 @@
+{"timestamp":1700000000,"sender_uin":100000001,"receiver_uin":100000002,"speaker":"self","receiver":"peer","text":"Hello!","quoted_text":[],"placeholders":[],"content_kind":"text","text_source":"primary","parse_status":"ok","parse_error":null}
+{"timestamp":1700000010,"sender_uin":100000002,"receiver_uin":100000001,"speaker":"peer","receiver":"self","text":"Hi there!","quoted_text":[],"placeholders":[],"content_kind":"text","text_source":"primary","parse_status":"ok","parse_error":null}
+{"timestamp":1700000020,"sender_uin":100000002,"receiver_uin":100000001,"speaker":"peer","receiver":"self","text":"","quoted_text":[],"placeholders":["[image]"],"content_kind":"media","text_source":"none","parse_status":"ok","parse_error":null}
